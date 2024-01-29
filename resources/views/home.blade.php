@@ -69,14 +69,14 @@
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
-                                    <img src="{{ asset('landing/img/brands/logo1.png') }}" alt="">
+                                    <img src="{{ asset('landing/img/brands/logo3.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
-                                    <img src="{{ asset('landing/img/brands/logo2.png') }}" alt="">
+                                    <img src="{{ asset('landing/img/brands/logo4.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
