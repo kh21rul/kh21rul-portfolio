@@ -69,14 +69,14 @@
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
-                                    <img src="{{ asset('landing/img/brands/logo3.png') }}" alt="">
+                                    <img src="{{ asset('landing/img/brands/logo1.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
-                                    <img src="{{ asset('landing/img/brands/logo4.png') }}" alt="">
+                                    <img src="{{ asset('landing/img/brands/logo2.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -134,7 +134,7 @@
                 <div class="offset-lg-2 col-lg-4 col-md-6">
                     <div class="client-info">
                         <div class="d-flex mb-50">
-                            <span class="lage">10</span>
+                            <span class="lage">{{ date('Y') - 2020 }}</span>
                             <span class="smll">Years Experience Working</span>
                         </div>
                         <div class="call-now d-flex">
@@ -142,8 +142,8 @@
                                 <span class="fa fa-phone"></span>
                             </div>
                             <div class="ml-15">
-                                <p>call us now</p>
-                                <h3>(+1)-800-555-6789</h3>
+                                <p>call me now</p>
+                                <h3>(+62)-822-2913-9665</h3>
                             </div>
                         </div>
                     </div>
@@ -170,28 +170,28 @@
             <div class="row feature_inner">
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
-                        <img src="img/services/s1.png" alt="">
+                        <img src="{{ asset('landing/img/services/s1.png') }}" alt="">
                         <h4>Wp developing</h4>
                         <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
-                        <img src="img/services/s2.png" alt="">
+                        <img src="{{ asset('landing/img/services/s2.png') }}" alt="">
                         <h4>UI/ux design</h4>
                         <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
-                        <img src="img/services/s3.png" alt="">
+                        <img src="{{ asset('landing/img/services/s3.png') }}" alt="">
                         <h4>Web design</h4>
                         <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
-                        <img src="img/services/s4.png" alt="">
+                        <img src="{{ asset('landing/img/services/s4.png') }}" alt="">
                         <h4>seo optimize</h4>
                         <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
                     </div>
